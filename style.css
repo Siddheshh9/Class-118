@@ -1,0 +1,53 @@
+body{
+    background-color: gold;
+    color: black;
+}
+#show_sketch{
+    background-color:darkgray;
+    float: right;
+    font-size: 20px;
+}
+#show_sketch:hover{
+    background-color: whitesmoke;
+}
+
+p{
+    background-color: aliceblue;
+}
+
+h1{
+    background-color: aliceblue;
+    padding-left: 135px;
+}
+
+h2{
+    background-color: aliceblue;
+    font-weight: bolder;
+    color: red;
+}
+
+label{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+#Time{
+    float: right;
+}
+
+#Score{
+    float: left;
+}
+
+canvas{
+    animation-name: Sid;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 15px;
+}
+
+@keyframes Sid{
+    from{box-shadow: 12px 12px 2px 1px black;}
+    to{box-shadow: 12px 12px 2px 1px whitesmoke;}
+}
